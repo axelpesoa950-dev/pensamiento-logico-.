@@ -1,0 +1,180 @@
+/* ===== RESET GENERAL ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #1f3d2d;
+  background: linear-gradient(135deg, #d6efe3, #b7e0cd, #9ed5bb);
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+
+/* ===== CABECERA ===== */
+header {
+  background: #184d38;
+  color: rgb(12, 11, 11);
+  text-align: center;
+  padding: 50px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+/* ===== CLASES PARA TÍTULOS CON CUADRO ===== */
+.titulo-cuadro {
+  background: #14d789;       /* fondo oscuro elegante */
+  color: rgb(232, 224, 224);               /* texto blanco */
+  padding: 15px 25px;         /* espacio interno */
+  border-radius: 15px;        /* bordes redondeados */
+  text-align: center;         /* centrado */
+  margin-bottom: 30px;        /* separación hacia abajo */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* sombra suave */
+  font-size: 2em;
+  letter-spacing: 1px;        /* separación entre letras */
+}
+/* ===== CLASES PARA SUBTITULOS CON CUADRO ===== */
+.titulo-cuadro2 {
+  background: #14d789;       /* fondo oscuro elegante */
+  color: rgb(247, 244, 244);               /* texto blanco */
+  padding: 15px 25px;         /* espacio interno */
+  border-radius: 15px;        /* bordes redondeados */
+  text-align: left;        /* alineación del texto */
+  margin-bottom: 30px;        /* separación hacia abajo */
+  box-shadow: 0 4px 12px rgba(9, 8, 8, 0.2); /* sombra suave */
+  font-size: 1em;
+  letter-spacing: 1px;        /* separación entre letras */
+  a {
+  color: white;                /* el texto del enlace será blanco */
+  text-decoration: none;       /* quita el subrayado */
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #a4f4d0;              /* cambia a un tono verde claro cuando pasás el mouse */
+}
+}
+
+/* ===== VARIACIONES DE COLOR PARA TÍTULOS ===== */
+.titulo-verde { background: #2e8b57; }
+.titulo-verde2 { background: #4f9366; }
+
+/* ===== CONTENEDOR GENERAL ===== */
+main, .container {
+  flex: 1;
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 40px;
+  background: #5baf7dcc;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
+
+/* ===== PÁRRAFOS ===== */
+main p, .container p {
+  text-align: justify;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+
+
+.texto {
+  max-width: 1200px;
+  background: #ffffffcc;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 30px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== MENÚ DE NAVEGACIÓN ===== */
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+nav li {
+  width: 70%;
+  text-align: center;
+  background: #d8efe3;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+nav li:hover {
+  background: #bde1cb;
+  transform: scale(1.03);
+}
+
+nav a {
+  color: #184d38;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+/* ===== BOTÓN VOLVER ===== */
+.volver {
+  display: block;
+  text-align: center;
+  background: #184d38;
+  color: white;
+  padding: 12px 0;
+  margin: 40px auto 0;
+  width: 200px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+  a {
+  color: white;                /* el texto del enlace será blanco */
+  text-decoration: none;       /* quita el subrayado */
+  font-weight: bold;
+  transition: 0.3s;
+}
+.volver:hover {
+  background: #129361;
+}
+
+/* ===== PIE DE PÁGINA ===== */
+footer {
+  text-align: center;
+  background: #184d38;
+  color: white;
+  padding: 20px 0;
+  font-size: 0.9em;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -3px 8px rgba(0,0,0,0.1);
+  margin-top: auto;
+}
